@@ -1128,8 +1128,8 @@ void find_solution() {
   Serial.println(curstate);
 
   Serial.print("Connecting to WiFi");
-    WiFi.begin("DWR-932_20E573", "ccDaA83389");
-//  WiFi.begin("ASUS", "bittu1985");
+    WiFi.begin("DWR-932_20E573", "*****");
+//  WiFi.begin("ASUS", "*****");
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.print(".");
